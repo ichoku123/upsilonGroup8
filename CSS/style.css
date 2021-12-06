@@ -1,0 +1,105 @@
+/* Body style */
+body{
+    background-image: linear-gradient(black,grey);
+}
+/* end of Body style */
+
+/* end of container style */
+.container{
+    background-color: white;
+}
+/* end of container style */
+
+/* nav style*/
+
+.crumbs-icon{
+    font-size: 26px;
+    color: white;
+}
+.nav-color{
+    background-color: black;
+}
+
+.nav-color ul{
+    padding: 20px;
+    margin-right: 40px;
+    
+    
+}
+.nav-color ul li{
+     margin: 10px;
+    
+    
+}
+.nav-color ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-color{
+    background-color: red;
+  }
+}
+/* end of nav style*/
+
+/* card style*/
+.cardOne{
+    margin-top: 10px;
+    background-color: deepskyblue;
+    color: black;
+    font-size: 24px;
+}
+
+.cardOne img{
+   width: 300px;
+   border-radius: 300px;
+    height: 300px;
+}
+
+.cardTwo{
+    background-color: orangered;
+    color: black;
+    font-size: 24px;
+}
+
+.cardTwo img{
+   width: 450px;
+    height: 380px;
+}
+
+.text-muted{
+    color: black;
+}
+/* end of card style*/
+
+/* */
+.footer{
+    background-color: black;
+}
+
+.footer-icons{
+    background-color: black;
+    width: 400px;
+    height: 90px;
+}
+
+@media screen and (max-width: 991px) {
+ .footer-icons{
+    background-color: red;
+  }
+    .footer{
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 440px) {
+ .footer-icons{
+    width: 100px;
+     height: 300px;
+  }
+}
+
+
+/* */
